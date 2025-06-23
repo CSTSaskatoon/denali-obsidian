@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"bc0e4fd811d2338d","type":"text","text":"60","x":220,"y":-40,"width":100,"height":80},
+		{"id":"65cc4a0639e879fd","type":"text","text":"80","x":380,"y":80,"width":100,"height":80},
+		{"id":"cb1e9b8929b990d1","type":"text","text":"70","x":40,"y":80,"width":100,"height":80},
+		{"id":"f074f6c869df1e6f","type":"text","text":"75","x":170,"y":240,"width":100,"height":80},
+		{"id":"1ece0807e4cc2618","type":"text","text":"30","x":-320,"y":-40,"width":100,"height":80},
+		{"id":"fa7fc374ee093c35","x":-60,"y":-220,"width":100,"height":80,"type":"text","text":"50"},
+		{"id":"3210d8d3c91b0cc8","x":-680,"y":-180,"width":1110,"height":580,"type":"text","text":"## Right Rotation\n1. New Root = Old Root's Left Child (New Root's Right Child is now old root)\n2. Old Root's Left Child = New Root's Right child\n3. "}
+	],
+	"edges":[
+		{"id":"3528a24608b82c09","fromNode":"fa7fc374ee093c35","fromSide":"left","toNode":"1ece0807e4cc2618","toSide":"top"},
+		{"id":"7ff19ce5809321a3","fromNode":"fa7fc374ee093c35","fromSide":"right","toNode":"bc0e4fd811d2338d","toSide":"top"},
+		{"id":"30755747a48b8ef9","fromNode":"bc0e4fd811d2338d","fromSide":"left","toNode":"cb1e9b8929b990d1","toSide":"top"},
+		{"id":"38fbf8eb49b962e0","fromNode":"bc0e4fd811d2338d","fromSide":"right","toNode":"65cc4a0639e879fd","toSide":"top"},
+		{"id":"a8adb24ca2f2d33b","fromNode":"cb1e9b8929b990d1","fromSide":"right","toNode":"f074f6c869df1e6f","toSide":"top"}
+	]
+}

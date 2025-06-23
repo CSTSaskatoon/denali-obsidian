@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"d85d056c5ad81a6d","type":"file","file":"CST_Year2_S2/COSA-290-T01 IT Development Project 2/Release 3/Story 43/Diagrams/Frontend Implementation.md","x":1000,"y":-60,"width":1600,"height":1660},
+		{"id":"dcd031c60e503dfd","type":"file","file":"CST_Year2_S2/COSA-290-T01 IT Development Project 2/Release 3/Story 43/Diagrams/Full Sequence.md","x":-340,"y":1640,"width":2940,"height":1480},
+		{"id":"82f65e9890b28a49","type":"file","file":"CST_Year2_S2/COSA-290-T01 IT Development Project 2/Release 3/Story 43/Diagrams/Backend Implementation.md","x":-340,"y":-60,"width":1300,"height":1660}
+	],
+	"edges":[]
+}

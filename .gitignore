@@ -1,0 +1,19 @@
+# Image Files
+# Commenting these out
+#*.png
+#*.jpg
+#*.jpeg
+#*.webm
+#*.gif
+
+# Files being edited
+*~*
+
+# Plugins
+plugins/
+
+# Workspace
+workspace.json
+
+# Personal
+CST_Year2_S2/COSA-290-T01 IT Development Project 2/Release 4/Story 54/Notes.md

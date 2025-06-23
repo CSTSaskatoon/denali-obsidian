@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"e664307a80603f1b","type":"text","text":"CourseRegistration\n","x":-480,"y":-200,"width":300,"height":60},
+		{"id":"54180606a21d9e08","type":"text","text":"studentID","x":-480,"y":-140,"width":300,"height":60,"color":"5"},
+		{"id":"b27303e6628154f0","type":"text","text":"studentName","x":-480,"y":-80,"width":300,"height":60},
+		{"id":"918d7725c7cd6de5","type":"text","text":"studentAddress","x":-480,"y":-20,"width":300,"height":60},
+		{"id":"fb0b0c292bad50c8","type":"text","text":"courseID","x":-480,"y":40,"width":300,"height":60,"color":"4"},
+		{"id":"e469a6cf6d10a448","type":"text","text":"section","x":-480,"y":100,"width":300,"height":60,"color":"1"},
+		{"id":"bb2d424512325054","type":"text","text":"midtermMark","x":-480,"y":160,"width":300,"height":60},
+		{"id":"c4a5ef620f8c6669","type":"text","text":"finalMark","x":-480,"y":220,"width":300,"height":60},
+		{"id":"4949b81e26923499","type":"text","text":"courseName","x":-480,"y":280,"width":300,"height":60},
+		{"id":"b2135d9b0f0006f1","type":"text","text":"credits","x":-480,"y":340,"width":300,"height":60},
+		{"id":"b8ef40346c617ddd","type":"text","text":"term","x":-480,"y":400,"width":300,"height":60},
+		{"id":"257940bf6bf0b96c","type":"text","text":"day","x":-480,"y":460,"width":300,"height":60},
+		{"id":"64c663933bed9a24","type":"text","text":"room","x":-480,"y":520,"width":300,"height":60},
+		{"id":"6cde13535fccd4bb","type":"text","text":"startTime","x":-480,"y":580,"width":300,"height":60},
+		{"id":"e7d4b3b3275f611d","type":"text","text":"endTime","x":-480,"y":640,"width":300,"height":60}
+	],
+	"edges":[
+		{"id":"715dd5bad8061197","fromNode":"54180606a21d9e08","fromSide":"right","toNode":"b27303e6628154f0","toSide":"right","color":"5"},
+		{"id":"68e47964efe6ae91","fromNode":"54180606a21d9e08","fromSide":"right","toNode":"918d7725c7cd6de5","toSide":"right","color":"5"},
+		{"id":"53c4d983f3b06a5e","fromNode":"fb0b0c292bad50c8","fromSide":"right","toNode":"bb2d424512325054","toSide":"right","color":"4"},
+		{"id":"6f4acc136ad13dc0","fromNode":"fb0b0c292bad50c8","fromSide":"right","toNode":"4949b81e26923499","toSide":"right","color":"4"},
+		{"id":"a6a5d59b282c5ff6","fromNode":"fb0b0c292bad50c8","fromSide":"right","toNode":"b2135d9b0f0006f1","toSide":"right","color":"4"},
+		{"id":"a4d1f7585ed8e2ef","fromNode":"e469a6cf6d10a448","fromSide":"left","toNode":"fb0b0c292bad50c8","toSide":"left","color":"1"},
+		{"id":"e809ceefc31d5705","fromNode":"e469a6cf6d10a448","fromSide":"left","toNode":"257940bf6bf0b96c","toSide":"left","color":"1"},
+		{"id":"1651397a8c6fe2a7","fromNode":"e469a6cf6d10a448","fromSide":"left","toNode":"6cde13535fccd4bb","toSide":"left","color":"1"},
+		{"id":"2fffe15377f4eafb","fromNode":"e469a6cf6d10a448","fromSide":"left","toNode":"e7d4b3b3275f611d","toSide":"left","color":"1"},
+		{"id":"a95dc50bf0dcc76a","fromNode":"e469a6cf6d10a448","fromSide":"left","toNode":"64c663933bed9a24","toSide":"left","color":"1"},
+		{"id":"e8421eac2938f512","fromNode":"fb0b0c292bad50c8","fromSide":"right","toNode":"b8ef40346c617ddd","toSide":"right","color":"4"},
+		{"id":"c638a6ec4dbf4137","fromNode":"54180606a21d9e08","fromSide":"left","toNode":"c4a5ef620f8c6669","toSide":"left","color":"5"},
+		{"id":"b45df461c1bdf53e","fromNode":"fb0b0c292bad50c8","fromSide":"left","toNode":"c4a5ef620f8c6669","toSide":"left","color":"4"},
+		{"id":"297b79f638c89dea","fromNode":"54180606a21d9e08","fromSide":"left","toNode":"bb2d424512325054","toSide":"left","color":"5"},
+		{"id":"ecddc5b3c5040346","fromNode":"fb0b0c292bad50c8","fromSide":"left","toNode":"bb2d424512325054","toSide":"left","color":"4"}
+	]
+}

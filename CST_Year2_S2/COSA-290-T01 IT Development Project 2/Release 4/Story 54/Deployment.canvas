@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"c4fe9944082cbc11","type":"text","text":"# BitBucket","x":-1900,"y":120,"width":1000,"height":162},
+		{"id":"c8d275cc69a91916","type":"text","text":"### Development Environment","x":-2148,"y":480,"width":688,"height":100},
+		{"id":"7bb3186c088a9859","type":"text","text":"#### Running Backend","x":-2320,"y":720,"width":480,"height":80},
+		{"id":"79cd3a4cef3e5893","type":"text","text":"#### Running Frontend","x":-1772,"y":720,"width":480,"height":80},
+		{"id":"db7ceb20c22f6976","type":"text","text":"## AWS Lightsail VM","x":-596,"y":120,"width":1000,"height":162},
+		{"id":"91cf7e1223f07212","x":-128,"y":-280,"width":1136,"height":240,"type":"text","text":"# AWS"},
+		{"id":"3cfc614baea1ce01","x":480,"y":120,"width":688,"height":240,"type":"text","text":"## Other AWS Resources\n- CloudFront\n- API Gateway (For large scale)"},
+		{"id":"a23045b5e45b6f98","type":"text","text":"### Deployment Branch","x":-1080,"y":480,"width":688,"height":100},
+		{"id":"5afd17886c29e49a","type":"text","text":"#### Running Backend","x":-1244,"y":982,"width":480,"height":80},
+		{"id":"b4736b088cc19959","type":"text","text":"### Production Environment","x":-1080,"y":710,"width":688,"height":100},
+		{"id":"ea212c32e07a2131","type":"text","text":"#### Running Frontend","x":-680,"y":982,"width":480,"height":80}
+	],
+	"edges":[
+		{"id":"2b99ef6ceb128c43","fromNode":"c8d275cc69a91916","fromSide":"bottom","toNode":"7bb3186c088a9859","toSide":"top"},
+		{"id":"2253ca516742c6eb","fromNode":"c8d275cc69a91916","fromSide":"bottom","toNode":"79cd3a4cef3e5893","toSide":"top"},
+		{"id":"26653d12590e1e99","fromNode":"c4fe9944082cbc11","fromSide":"bottom","toNode":"c8d275cc69a91916","toSide":"top"},
+		{"id":"a83f6a853e82ef97","fromNode":"c4fe9944082cbc11","fromSide":"bottom","toNode":"a23045b5e45b6f98","toSide":"top"},
+		{"id":"07fbd43abf3334d2","fromNode":"a23045b5e45b6f98","fromSide":"bottom","toNode":"b4736b088cc19959","toSide":"top"},
+		{"id":"5b660de322ea80d9","fromNode":"db7ceb20c22f6976","fromSide":"bottom","toNode":"a23045b5e45b6f98","toSide":"top"},
+		{"id":"0eb447bcef34a55c","fromNode":"b4736b088cc19959","fromSide":"bottom","toNode":"5afd17886c29e49a","toSide":"top"},
+		{"id":"dcddd296327f3697","fromNode":"b4736b088cc19959","fromSide":"bottom","toNode":"ea212c32e07a2131","toSide":"top"},
+		{"id":"5aee84d4fbc0025d","fromNode":"91cf7e1223f07212","fromSide":"bottom","toNode":"db7ceb20c22f6976","toSide":"top"},
+		{"id":"b2eadbecc9930e27","fromNode":"91cf7e1223f07212","fromSide":"bottom","toNode":"3cfc614baea1ce01","toSide":"top"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attatchments",
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "foldIndent": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"93bf153cba7ac14a","x":-600,"y":-300,"width":440,"height":520,"type":"text","text":"<br /><br /><br /><br /><br /><br />`Push`\n`P.Modal`\n"},
+		{"id":"040c468af8ed43b5","x":0,"y":-300,"width":440,"height":520,"type":"text","text":"<br /><br /><br /><br /><br /><br />`Fuck`<br />`bitch`"},
+		{"id":"39f4f8bc580d01fd","x":-1000,"y":-110,"width":280,"height":140,"type":"text","text":"`MainPage` (property)\n\"Root\" page"}
+	],
+	"edges":[
+		{"id":"f742c059dc3567e2","fromNode":"93bf153cba7ac14a","fromSide":"top","toNode":"040c468af8ed43b5","toSide":"top","label":"Push Onto stack\n(PushAsync or PushModalAsync)"},
+		{"id":"7426d4100796c34c","fromNode":"040c468af8ed43b5","fromSide":"bottom","toNode":"93bf153cba7ac14a","toSide":"bottom","label":"Pop\n(PopAsync or PopModalAsync)"},
+		{"id":"c12992df7bb770d1","fromNode":"39f4f8bc580d01fd","fromSide":"right","toNode":"93bf153cba7ac14a","toSide":"left"}
+	]
+}
